@@ -8,6 +8,14 @@ they expire for documentation purposes.
 
 ***Github access token: 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***
 
+### Common Github Commands
+  1. git pull origin main
+  2. git add <filename>
+  3. git commit -m "commit message"
+  4. git push origin main
+  5. git branch
+  6. git branch checkout
+
 ## Development Process Documentation
   1. Clone the Git repository to the SSH that development will occur on.
   2. Create the main program file, include argument & header files <iostream> <stdlib> <string> and <limits>
