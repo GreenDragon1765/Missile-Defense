@@ -1,9 +1,10 @@
 #include <iostream>
 #include <stdlib.h>
+#include "utility.h"
 
 using namespace std;
 
 int main(int argc, char *argv[]) {
-	cout << "Hello World\n";
+	initial_menu_display_banner();
 	return EXIT_SUCCESS;
 }

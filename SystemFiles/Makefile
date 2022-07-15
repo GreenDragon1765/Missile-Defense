@@ -1,5 +1,5 @@
-defense: main.cpp
-	g++ -std=c++11 -o defense main.cpp -I.
+defense: main.cpp menu.cpp
+	g++ -std=c++11 -o defense main.cpp menu.cpp -I.
 
-clear:
-	-rm defense
+clean:
+	rm defense
