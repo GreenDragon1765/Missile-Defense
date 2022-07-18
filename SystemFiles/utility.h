@@ -16,5 +16,6 @@ void initial_menu_display_banner();
 void user_interface_menu_display();
 void user_enter_help_command();
 void user_enter_clear_command();
+void user_enter_add_command();
 
 #endif
