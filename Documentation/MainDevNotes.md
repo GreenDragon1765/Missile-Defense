@@ -28,3 +28,18 @@ Created a function in menu.cpp called "user_interface_menu_display()" which disp
   9. Update the help file to include the new commands, and make sure the formatting makes sense and the instructions are clear and concise.
 
 Final thoughts before the weekend. When the user types just the enter key, it doesn't show the prompt, so that needs to be fixed. Implement the commands from the help file and begin development on the Turret class on monday.
+
+### 2022 July 18 (Monday)
+A new header file has been created, titled 'weapons.h' and contains the turret class. For now it is very bare bones. It isn't meant to be very detailed as of yet, neither is the menu file. For now, basic housekeeping information has been included in the turret class. More testing will need to be done during further development of this class. A menu for the turret itself needs to be added, and the information about a turret needs to be saved somewhere to make changes permentant.
+
+The turret class itself has the private and public. It will use encapsulation. The reason for this is that the user cannot manually change the values of the turret object. They must use set/get methods within the class. This will be included in the header file. The constructor will take values that will be added manually as development progresses. For right now, the values are preset.
+  1. The turret's name: an identifier for the turret, just a string, nothing special about it
+  2. The turret's ID: when initialized, will be given an ID number with the turret name
+  3. Turret online: a boolean value, tests if turret is online or not
+  4. Turret date created: the date the turret object was instantiated, a string
+  5. Turret coordinates: the current location of the turret, this will be a double vector[] with two values, the latitude and the longitude
+  6. Turret location: the current location of the turret, a string value
+  7. Turret type: this will be the type of turret that it is, will determine other factors
+  8. Turret missile bay: an array of Missile objects, will be determined later on, for now just an array of int
+
+For now, these are the variables to be implemented. This is what will be accomplished today. Make sure to note any issues that arise further in this document. Also briefly explain what the thought process was behind some of the things that are added.
