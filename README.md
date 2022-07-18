@@ -6,7 +6,13 @@ The purpose of this project is the development of a missile defense simulation s
 This is where the project's access tokens will be kept. They expire every 7 days, so remember to generate a new one every week. Make sure to keep up to date with the token if accessing through a command line. Keep all tokens here, even after
 they expire for documentation purposes.
 
-***Github access token: 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***
+***Github access token:***
+
+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
+
+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
+
+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
 
 ### Common Github Commands
   1. git pull origin main
